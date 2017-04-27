@@ -1,5 +1,5 @@
 <html lang="en"><head>
-    <title>Code coverage report for node-npmtest-cordova-plugin-device-orientation/node_modules/cordova-plugin-device-orientation/src/browser/CompassProxy.js</title>
+    <title>Code coverage report for node-npmtest-cordova-plugin-device-orientation/node_modules/cordova-plugin-device-orientation/src/windows/CompassProxy.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,23 +192,23 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-cordova-plugin-device-orientation">npmtest-cordova-plugin-device-orientation (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-cordova-plugin-device-orientation/node_modules/cordova-plugin-device-orientation/src/browser/CompassProxy.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-cordova-plugin-device-orientation/node_modules/cordova-plugin-device-orientation/src/windows/CompassProxy.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">23.08% <small>(3 / 13)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">8.33% <small>(1 / 12)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">100% <small>(0 / 0)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">0% <small>(0 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">23.08% <small>(3 / 13)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">8.33% <small>(1 / 12)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../../../index.html">All files</a> » <a href="index.html">node-npmtest-cordova-plugin-device-orientation/node_modules/cordova-plugin-device-orientation/src/browser/</a> » CompassProxy.js</div>
+    <div class="path"><a href="../../../../../index.html">All files</a> » <a href="index.html">node-npmtest-cordova-plugin-device-orientation/node_modules/cordova-plugin-device-orientation/src/windows/</a> » CompassProxy.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -256,7 +256,17 @@
 42
 43
 44
-45</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -277,30 +287,40 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2</span>
-<span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/*
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">﻿/*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -321,34 +341,44 @@
  *
 */
 &nbsp;
-var Compass = {
-    getHeading: <span class="fstat-no" title="function not covered">function(success, error) {</span>
-<span class="cstat-no" title="statement not covered">        var listener = <span class="fstat-no" title="function not covered">function() {</span></span>
-<span class="cstat-no" title="statement not covered">            var orient = {};</span>
-<span class="cstat-no" title="statement not covered">            var heading = (Math.round((Math.random() * 360) * 100) / 100);</span>
+/*jslint sloppy:true */
+/*global Windows:true, require, module, setTimeout */
 &nbsp;
-<span class="cstat-no" title="statement not covered">            orient.trueHeading = heading;</span>
-<span class="cstat-no" title="statement not covered">            orient.magneticHeading = heading;</span>
-<span class="cstat-no" title="statement not covered">            orient.headingAccuracy = 0;</span>
-<span class="cstat-no" title="statement not covered">            orient.timestamp = new Date().getTime();</span>
+var CompassHeading = require('cordova-plugin-device-orientation.CompassHeading'),
+    CompassError = require('cordova-plugin-device-orientation.CompassError');
 &nbsp;
-<span class="cstat-no" title="statement not covered">            success(orient);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">            window.removeEventListener('deviceorientation', listener, false);</span>
-        };
+<span class="cstat-no" title="statement not covered">module.exports = {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">        return window.addEventListener('deviceorientation', listener, false);</span>
+    onReadingChanged: null,
+    getHeading: <span class="fstat-no" title="function not covered">function (win, lose) {</span>
+<span class="cstat-no" title="statement not covered">        var deviceCompass = Windows.Devices.Sensors.Compass.getDefault();</span>
+<span class="cstat-no" title="statement not covered">        if (!deviceCompass) {</span>
+<span class="cstat-no" title="statement not covered">            setTimeout(<span class="fstat-no" title="function not covered">function () {</span></span>
+<span class="cstat-no" title="statement not covered">                lose(CompassError.COMPASS_NOT_SUPPORTED);</span>
+            }, 0);
+        } else {
+<span class="cstat-no" title="statement not covered">            var reading = deviceCompass.getCurrentReading(),</span>
+                heading = new CompassHeading(reading.headingMagneticNorth, reading.headingTrueNorth, null, reading.timestamp.getTime());
+<span class="cstat-no" title="statement not covered">            setTimeout(<span class="fstat-no" title="function not covered">function () {</span></span>
+<span class="cstat-no" title="statement not covered">                win(heading);</span>
+            }, 0);
+        }
+    },
+    stopHeading: <span class="fstat-no" title="function not covered">function (win, lose) {</span>
+<span class="cstat-no" title="statement not covered">        setTimeout(<span class="fstat-no" title="function not covered">function () {</span></span>
+<span class="cstat-no" title="statement not covered">            win();</span>
+        }, 0);
     }
 };
 &nbsp;
-module.exports = Compass;
-require('cordova/exec/proxy').add('Compass', Compass);
+<span class="cstat-no" title="statement not covered">require("cordova/exec/proxy").add("Compass", module.exports);</span>
 &nbsp;
 &nbsp;</pre></td></tr>
 </tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 19 2017 11:43:43 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Thu Apr 27 2017 17:41:05 GMT+0000 (UTC)</div>
 </div>
 
 
